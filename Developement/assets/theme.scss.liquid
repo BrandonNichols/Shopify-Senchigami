@@ -8949,8 +8949,8 @@ $label-bottom-margin: 12px;
 
 .overflow-scroller {
   position: relative;
-  overflow: hidden;
-  overflow-x: scroll;
+  // overflow: hidden;
+  // overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
   padding-bottom: $gutter / 2;
 
@@ -8958,6 +8958,7 @@ $label-bottom-margin: 12px;
     white-space: nowrap;
     display: -ms-flexbox;
     display: flex;
+    flex-wrap: wrap;
     &:after { // end spacing fix
       width: 1px;
       height: 1px;
@@ -8989,6 +8990,10 @@ $label-bottom-margin: 12px;
           flex: 0 0 $scrollingProductSmallDesktop;
 
       &:first-child {
+        margin-left: 80px;
+      }
+
+      &:nth-child(4n + 1){
         margin-left: 80px;
       }
 
