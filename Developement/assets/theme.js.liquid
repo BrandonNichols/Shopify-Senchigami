@@ -3044,7 +3044,9 @@ lazySizesConfig.expFactor = 4;
         touchThreshold: 8,
         speed: 300,
         // pauseOnHover: args.pauseOnHover ? true : false,
-        autoplay: this.$slideshow.data("autoplay"),
+        // autoplay: this.$slideshow.data("autoplay"),
+        pauseOnHover: false,
+        autoplay: true,
         autoplaySpeed: this.$slideshow.data("speed")
       };
 
@@ -3584,7 +3586,7 @@ lazySizesConfig.expFactor = 4;
           currentSlide,
           nextSlide
         ) {
-          $slider.slickSetOption("pauseOnHover", true, false);
+          $slider.slick("slickSetOption", "autoplay", false);
         });
       },
 
