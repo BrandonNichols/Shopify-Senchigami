@@ -118,7 +118,7 @@
         "settings": {
           "header_style": "button",
           "main_menu_alignment": "right",
-          "sticky_index": false,
+          "sticky_index": true,
           "sticky_collection": false,
           "header_search_enable": true,
           "logo": "shopify:\/\/shop_images\/2019-12-15_Fiverr_Gig_002.png",
@@ -568,7 +568,7 @@
               "link": "",
               "link_text": "Optional button",
               "text_align": "vertical-center horizontal-center",
-              "image": "",
+              "image": "shopify:\/\/shop_images\/macbook-air-on-desk.jpg",
               "image_mobile": "",
               "focal_point": "center center"
             }
@@ -582,7 +582,7 @@
               "link": "",
               "link_text": "Optional button",
               "text_align": "vertical-center horizontal-center",
-              "image": "",
+              "image": "shopify:\/\/shop_images\/tattood-man-using-creative-technology.jpg",
               "image_mobile": "",
               "focal_point": "center center"
             }
@@ -596,7 +596,7 @@
               "link": "",
               "link_text": "Optional button",
               "text_align": "vertical-center horizontal-center",
-              "image": "",
+              "image": "shopify:\/\/shop_images\/designer-at-desk.jpg",
               "image_mobile": "",
               "focal_point": "center center"
             }
@@ -608,11 +608,11 @@
           "1598714943753"
         ],
         "settings": {
-          "style": "minimal",
+          "style": "arrows",
           "desktop_size": 0,
           "mobile_size": 0,
-          "autoplay": false,
-          "autoplay_speed": 7
+          "autoplay": true,
+          "autoplay_speed": 5
         }
       }
     },
