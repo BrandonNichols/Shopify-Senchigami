@@ -122,15 +122,13 @@
           "sticky_collection": false,
           "header_search_enable": true,
           "logo": "shopify:\/\/shop_images\/2019-12-15_Fiverr_Gig_002.png",
-          "logo-inverted": "",
           "desktop_logo_width": 240,
           "mobile_logo_width": 110,
           "logo_hide_mobile": true,
           "main_menu_link_list": "main-menu",
           "show_announcement": true,
           "show_announcement_home_only": false,
-          "announcement_text": "Free shipping and returns",
-          "announcement_link": ""
+          "announcement_text": "Free shipping and returns"
         }
       },
       "footer": {
@@ -162,7 +160,7 @@
         "settings": {
           "product_image_size": "large",
           "product_image_type": "stacked",
-          "product_zoom_enable": true,
+          "product_zoom_enable": false,
           "enable_video_looping": true,
           "product_video_style": "muted",
           "enable_payment_button": true,
@@ -255,8 +253,7 @@
           "popup_title": "Sign up and save",
           "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers.<\/p>",
           "enable_newsletter": true,
-          "button_label": "",
-          "button_link": ""
+          "button_label": ""
         }
       },
       "list-collections-template": {
@@ -271,14 +268,11 @@
         "type": "text-and-image",
         "disabled": true,
         "settings": {
-          "image": "",
-          "image2": "",
           "image_width": 700,
           "subtitle": "",
           "title": "Image with text",
           "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
           "button_label": "",
-          "button_link": "",
           "button_style": "primary",
           "layout": "right",
           "alt": false
@@ -291,24 +285,18 @@
           "1559240039950-0": {
             "type": "image",
             "settings": {
-              "image": "",
-              "image_mobile": "",
               "focal_point": "center center"
             }
           },
           "1559240039950-1": {
             "type": "image",
             "settings": {
-              "image": "",
-              "image_mobile": "",
               "focal_point": "center center"
             }
           },
           "1559309176406": {
             "type": "image",
             "settings": {
-              "image": "",
-              "image_mobile": "",
               "focal_point": "center center"
             }
           }
@@ -323,7 +311,6 @@
           "title": "Make an\ninstant impression",
           "title_size": 72,
           "subheading": "With fading or GIF-style animated images",
-          "link": "",
           "link_text": "Optional button",
           "text_align": "vertical-bottom horizontal-right",
           "desktop_size": 0,
@@ -346,7 +333,6 @@
           "title_size": 75,
           "subheading": "",
           "link_text": "",
-          "link": "",
           "text_align": "vertical-bottom horizontal-left",
           "video_url": "https:\/\/www.youtube.com\/watch?v=JaDi-Ac2vUk&feature=youtu.be",
           "section_height": "100vh",
@@ -372,7 +358,6 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/selena_testimonial.png",
               "link": "https:\/\/www.instagram.com\/suh_its_selena\/",
-              "product": "",
               "account": "Selena",
               "caption": "",
               "likes": ""
@@ -448,16 +433,12 @@
           "1589433548337-0": {
             "type": "image",
             "settings": {
-              "image": "",
-              "image_mobile": "",
               "focal_point": "center center"
             }
           },
           "1589433548337-1": {
             "type": "image",
             "settings": {
-              "image": "",
-              "image_mobile": "",
               "focal_point": "center center"
             }
           }
@@ -471,7 +452,6 @@
           "title": "Make an\ninstant impression",
           "title_size": 80,
           "subheading": "With fading or GIF-style animated images",
-          "link": "",
           "link_text": "Optional button",
           "text_align": "vertical-center horizontal-center",
           "desktop_size": 0,
@@ -548,8 +528,6 @@
           "title": "Large image with text box",
           "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
           "button_label": "",
-          "button_link": "",
-          "image": "",
           "desktop_size": 0,
           "image_alignment": "center center",
           "color_border": "#f4f4f4",
@@ -565,11 +543,9 @@
               "title": "Two line\nslide title.",
               "title_size": 80,
               "subheading": "And an optional subheading",
-              "link": "",
               "link_text": "Optional button",
               "text_align": "vertical-center horizontal-center",
               "image": "shopify:\/\/shop_images\/macbook-air-on-desk.jpg",
-              "image_mobile": "",
               "focal_point": "center center"
             }
           },
@@ -579,11 +555,9 @@
               "title": "Two line\nslide title.",
               "title_size": 80,
               "subheading": "And an optional subheading",
-              "link": "",
               "link_text": "Optional button",
               "text_align": "vertical-center horizontal-center",
               "image": "shopify:\/\/shop_images\/tattood-man-using-creative-technology.jpg",
-              "image_mobile": "",
               "focal_point": "center center"
             }
           },
@@ -593,11 +567,9 @@
               "title": "Two line\nslide title.",
               "title_size": 80,
               "subheading": "And an optional subheading",
-              "link": "",
               "link_text": "Optional button",
               "text_align": "vertical-center horizontal-center",
               "image": "shopify:\/\/shop_images\/designer-at-desk.jpg",
-              "image_mobile": "",
               "focal_point": "center center"
             }
           }
