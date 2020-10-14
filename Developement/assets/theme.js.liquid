@@ -1,9 +1,11 @@
 // Use our custom event listeners to tap into common functions.
 // Documentation - https://archetypethemes.co/blogs/streamline/javascript-events-for-developers
 //
-// document.addEventListener('page:loaded', function() {
-//   /* Stylesheet and theme scripts have loaded */
-// });
+document.addEventListener("page:loaded", function () {
+  /* Stylesheet and theme scripts have loaded */
+  $(".image__gallery").slick();
+  // console.log('HERE');
+});
 
 window.theme = window.theme || {};
 
