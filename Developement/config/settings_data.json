@@ -162,7 +162,7 @@
         "settings": {
           "product_image_size": "large",
           "product_image_type": "stacked",
-          "product_zoom_enable": true,
+          "product_zoom_enable": false,
           "enable_video_looping": true,
           "product_video_style": "muted",
           "enable_payment_button": true,
@@ -377,11 +377,35 @@
               "caption": "",
               "likes": ""
             }
+          },
+          "1602690727721": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/chloe.jpg",
+              "link": "",
+              "product": "",
+              "account": "",
+              "caption": "",
+              "likes": ""
+            }
+          },
+          "1602690747261": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/deli.png",
+              "link": "",
+              "product": "",
+              "account": "",
+              "caption": "",
+              "likes": ""
+            }
           }
         },
         "block_order": [
           "1596584271864",
-          "1596584656293"
+          "1596584656293",
+          "1602690727721",
+          "1602690747261"
         ],
         "settings": {
           "enable_home": true,
