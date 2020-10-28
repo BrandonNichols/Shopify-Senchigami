@@ -3573,23 +3573,23 @@ lazySizesConfig.expFactor = 4;
         this.activeIds.push($slider.data("id"));
 
         $slider.addClass("product-slider--init").slick({
-          autoplay: true,
+          autoplay: false,
           infinite: true,
           arrows: false,
-          speed: 0,
+          speed: 300,
           fade: true,
           pauseOnHover: false,
-          autoplaySpeed: 0
+          autoplaySpeed: 1000
         });
 
-        $slider.on("afterChange", function (
-          event,
-          slick,
-          currentSlide,
-          nextSlide
-        ) {
-          $slider.slick("slickSetOption", "autoplay", false);
-        });
+        // $slider.on("afterChange", function (
+        //   event,
+        //   slick,
+        //   currentSlide,
+        //   nextSlide
+        // ) {
+        //   $slider.slick("slickSetOption", "autoplay", false);
+        // });
       },
 
       destroySlider: function ($slider) {
