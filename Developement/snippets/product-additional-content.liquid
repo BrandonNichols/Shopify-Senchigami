@@ -26,7 +26,7 @@
           {% if product.empty? %}
             {{ 'home_page.onboarding.product_description' | t }}
           {% else %}
-            {{ product.description }}
+            <div data-station-tabs-app data-station-tabs-product="{{ product.handle }}">{{ product.description }}</div>
           {% endif %}
         </div>
       </div>

@@ -91,12 +91,12 @@
     "homepage_social_image": "",
     "favicon": "shopify:\/\/shop_images\/2019-12-15_Fiverr_Gig_002.png",
     "search_type": "product",
-    "checkout_header_image": "",
+    "checkout_header_image": "shopify:\/\/shop_images\/twitter_banner_now.png",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
     "checkout_body_background_image": "",
-    "checkout_body_background_color": "#fff",
+    "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_image": "",
     "checkout_sidebar_background_color": "#fafafa",
@@ -121,7 +121,7 @@
           "sticky_index": false,
           "sticky_collection": false,
           "header_search_enable": true,
-          "logo": "shopify:\/\/shop_images\/2019-12-15_Fiverr_Gig_002.png",
+          "logo": "shopify:\/\/shop_images\/akemi.jpg",
           "desktop_logo_width": 240,
           "mobile_logo_width": 110,
           "logo_hide_mobile": true,
@@ -320,7 +320,7 @@
       "product-recommendations": {
         "type": "product-recommendations",
         "settings": {
-          "show_product_recommendations": true,
+          "show_product_recommendations": false,
           "product_recommendations_heading": "You may also like",
           "per_row": "large"
         }
@@ -342,6 +342,28 @@
       "social": {
         "type": "social",
         "blocks": {
+          "42dd2da0-175f-47f8-b6c3-3018d3f495ad": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bailey.jpg",
+              "link": "https:\/\/www.instagram.com\/bails_robinson\/",
+              "product": "ascend",
+              "account": "Bailey",
+              "caption": "",
+              "likes": ""
+            }
+          },
+          "1602690747261": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/deli.png",
+              "link": "https:\/\/www.twitch.tv\/delicatexo",
+              "product": "",
+              "account": "Delicatexo",
+              "caption": "",
+              "likes": ""
+            }
+          },
           "1596584271864": {
             "type": "post",
             "settings": {
@@ -368,30 +390,20 @@
             "type": "post",
             "settings": {
               "image": "shopify:\/\/shop_images\/chloe.jpg",
-              "link": "",
+              "link": "https:\/\/www.twitch.tv\/shm0oo",
               "product": "",
-              "account": "",
-              "caption": "",
-              "likes": ""
-            }
-          },
-          "1602690747261": {
-            "type": "post",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/deli.png",
-              "link": "",
-              "product": "",
-              "account": "",
+              "account": "Shm0oo",
               "caption": "",
               "likes": ""
             }
           }
         },
         "block_order": [
+          "42dd2da0-175f-47f8-b6c3-3018d3f495ad",
+          "1602690747261",
           "1596584271864",
           "1596584656293",
-          "1602690727721",
-          "1602690747261"
+          "1602690727721"
         ],
         "settings": {
           "enable_home": true,
@@ -518,8 +530,8 @@
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Very clean and clear design! The fabric is much more comfortable than expected.<\/p>",
-              "image": "shopify:\/\/shop_images\/nick_new_review.png",
-              "author": "Nick N."
+              "image": "shopify:\/\/shop_images\/art_wall.png",
+              "author": "Noller"
             }
           }
         },
@@ -561,6 +573,7 @@
       },
       "1598714936716": {
         "type": "slideshow",
+        "disabled": true,
         "blocks": {
           "1598714936716-0": {
             "type": "image",
@@ -595,7 +608,19 @@
               "subheading": "And an optional subheading",
               "link_text": "Optional button",
               "text_align": "vertical-center horizontal-center",
-              "image": "shopify:\/\/shop_images\/designer-at-desk.jpg",
+              "image": "shopify:\/\/shop_images\/delicatexo_2e6bb3f5-eb11-4a90-8d45-5f6d255aae73.jpg",
+              "focal_point": "center center"
+            }
+          },
+          "fd8c1629-3ac9-45dd-b54b-1e6fb999a6da": {
+            "type": "image",
+            "settings": {
+              "title": "Bailey",
+              "title_size": 80,
+              "subheading": "And an optional subheading",
+              "link_text": "Optional button",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/bailey.jpg",
               "focal_point": "center center"
             }
           }
@@ -603,7 +628,8 @@
         "block_order": [
           "1598714936716-0",
           "1598714941841",
-          "1598714943753"
+          "1598714943753",
+          "fd8c1629-3ac9-45dd-b54b-1e6fb999a6da"
         ],
         "settings": {
           "style": "arrows",
@@ -612,11 +638,26 @@
           "autoplay": true,
           "autoplay_speed": 5
         }
+      },
+      "page-about_us-template": {
+        "type": "page-about_us-template",
+        "blocks": {
+          "d792bd79-62b5-43b4-a372-482c4ae1ae29": {
+            "type": "image",
+            "settings": {
+              "Image": "shopify:\/\/shop_images\/massy.png"
+            }
+          }
+        },
+        "block_order": [
+          "d792bd79-62b5-43b4-a372-482c4ae1ae29"
+        ],
+        "settings": {}
       }
     },
     "content_for_index": [
-      "1598714936716",
       "1589432334509",
+      "1598714936716",
       "1596527000330",
       "1559249041610",
       "1589433548337",

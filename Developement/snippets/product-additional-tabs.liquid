@@ -31,7 +31,7 @@
             {% if product.empty? %}
               {{ 'home_page.onboarding.product_description' | t }}
             {% else %}
-              {{ product.description }}
+              <div data-station-tabs-app data-station-tabs-product="{{ product.handle }}">{{ product.description }}</div>
             {% endif %}
           </div>
         </div>
@@ -193,9 +193,11 @@
   {% comment %}
     No tabs setup, show normal description
   {% endcomment %}
+  <img src="https://www.sciencemag.org/sites/default/files/styles/inline__450w__no_aspect/public/dogs_1280p_0.jpg?itok=4t_1_fSJ" />
+  <div id="pretty-product-pages"></div>
   {% if product.description %}
     <div class="product-single__description rte">
-      {{ product.description }}
+      <div data-station-tabs-app data-station-tabs-product="{{ product.handle }}">{{ product.description }}</div>
     </div>
   {% endif %}
 {% endif %}
