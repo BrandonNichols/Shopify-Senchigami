@@ -345,7 +345,7 @@
           "42dd2da0-175f-47f8-b6c3-3018d3f495ad": {
             "type": "post",
             "settings": {
-              "image": "shopify:\/\/shop_images\/bailey.jpg",
+              "image": "shopify:\/\/shop_images\/pro_b.jpg",
               "link": "https:\/\/www.instagram.com\/bails_robinson\/",
               "product": "ascend",
               "account": "Bailey",
@@ -367,7 +367,7 @@
           "1596584271864": {
             "type": "post",
             "settings": {
-              "image": "shopify:\/\/shop_images\/sitting_highhat.png",
+              "image": "shopify:\/\/shop_images\/art_wall.png",
               "link": "",
               "product": "short-sleeve-unisex-t-shirt",
               "account": "Noller",
@@ -378,7 +378,7 @@
           "1596584656293": {
             "type": "post",
             "settings": {
-              "image": "shopify:\/\/shop_images\/selena_testimonial.png",
+              "image": "shopify:\/\/shop_images\/sel.jpg",
               "link": "https:\/\/www.instagram.com\/suh_its_selena\/",
               "product": "",
               "account": "Selena",
@@ -389,10 +389,21 @@
           "1602690727721": {
             "type": "post",
             "settings": {
-              "image": "shopify:\/\/shop_images\/chloe.jpg",
+              "image": "shopify:\/\/shop_images\/beaniechloe.jpg",
               "link": "https:\/\/www.twitch.tv\/shm0oo",
               "product": "",
               "account": "Shm0oo",
+              "caption": "",
+              "likes": ""
+            }
+          },
+          "e9b83ed2-ccc7-4338-87d5-035bbd9e2f4c": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/r2.jpg",
+              "link": "https:\/\/www.instagram.com\/aereio\/",
+              "product": "short-sleeve-unisex-t-shirt",
+              "account": "aereio",
               "caption": "",
               "likes": ""
             }
@@ -403,7 +414,8 @@
           "1602690747261",
           "1596584271864",
           "1596584656293",
-          "1602690727721"
+          "1602690727721",
+          "e9b83ed2-ccc7-4338-87d5-035bbd9e2f4c"
         ],
         "settings": {
           "enable_home": true,
