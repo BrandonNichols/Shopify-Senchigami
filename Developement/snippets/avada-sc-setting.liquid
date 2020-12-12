@@ -1,4 +1,5 @@
 
+ <script src="{{ 'size-chart-data.js' | asset_url }}" defer="defer"></script>
 {% include 'avada-sc-status' %}
 {% include 'avada-sc-cache' %}
 {% assign scripttags = content_for_header | split: 'var urls = ["' %}
@@ -22,7 +23,6 @@
 <script>const AVADA_SC = {};
         AVADA_SC.product = {{product | json}};
         AVADA_SC.template = "{{ template }}";
-        AVADA_SC.campaigns = [];
         AVADA_SC.collections = [];
         {% for collection in product.collections %}
         AVADA_SC.collections.push("{{ collection.id }}");

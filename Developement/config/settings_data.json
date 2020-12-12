@@ -120,7 +120,7 @@
           "main_menu_alignment": "right",
           "sticky_index": false,
           "sticky_collection": false,
-          "header_search_enable": true,
+          "header_search_enable": false,
           "logo": "shopify:\/\/shop_images\/akemi.jpg",
           "desktop_logo_width": 240,
           "mobile_logo_width": 110,
@@ -128,7 +128,7 @@
           "main_menu_link_list": "main-menu",
           "show_announcement": true,
           "show_announcement_home_only": false,
-          "announcement_text": "Free shipping and returns"
+          "announcement_text": "Use Code Launch for 20% off Your First Order"
         }
       },
       "footer": {
@@ -368,7 +368,7 @@
             "type": "post",
             "settings": {
               "image": "shopify:\/\/shop_images\/art_wall.png",
-              "link": "",
+              "link": "https:\/\/www.twitch.tv\/nollerreal",
               "product": "short-sleeve-unisex-t-shirt",
               "account": "Noller",
               "caption": "",
@@ -386,6 +386,17 @@
               "likes": ""
             }
           },
+          "a082b219-cb44-4be6-811f-2283ebc6f035": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/andre.png",
+              "link": "https:\/\/www.behance.net\/vkdesign42d600",
+              "product": "",
+              "account": "vonikka",
+              "caption": "",
+              "likes": ""
+            }
+          },
           "1602690727721": {
             "type": "post",
             "settings": {
@@ -393,6 +404,39 @@
               "link": "https:\/\/www.twitch.tv\/shm0oo",
               "product": "",
               "account": "Shm0oo",
+              "caption": "",
+              "likes": ""
+            }
+          },
+          "001a7de7-21f3-43de-8e58-3aa492e1ed5e": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/stygy.jpg",
+              "link": "https:\/\/twitter.com\/MasonBaird11",
+              "product": "trickster-hoodie",
+              "account": "Stygian Trickster",
+              "caption": "",
+              "likes": ""
+            }
+          },
+          "84cc2352-c070-4e9c-9525-994e3c145469": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/SHEN_BOI.png",
+              "link": "https:\/\/twitter.com\/SailorShen",
+              "product": "",
+              "account": "Sailor Shen",
+              "caption": "",
+              "likes": ""
+            }
+          },
+          "b7ea6fbb-c2b3-4dbe-83cc-5abcef05666d": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/jackson.jpg",
+              "link": "https:\/\/twitter.com\/JacksonHaime",
+              "product": "",
+              "account": "Jackson",
               "caption": "",
               "likes": ""
             }
@@ -407,6 +451,28 @@
               "caption": "",
               "likes": ""
             }
+          },
+          "75a3416e-4d11-4b4e-b5ec-1c67a44f4149": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/KnuxyLogo-Text_black.png",
+              "link": "https:\/\/twitter.com\/Knuxyy",
+              "product": "",
+              "account": "Knuxyy",
+              "caption": "",
+              "likes": ""
+            }
+          },
+          "6d9e285b-f803-4061-bb11-d4d17b78b294": {
+            "type": "post",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/jjj.png",
+              "link": "https:\/\/www.instagram.com\/jhonycaballeroart\/",
+              "product": "",
+              "account": "Jhony",
+              "caption": "",
+              "likes": ""
+            }
           }
         },
         "block_order": [
@@ -414,8 +480,14 @@
           "1602690747261",
           "1596584271864",
           "1596584656293",
+          "a082b219-cb44-4be6-811f-2283ebc6f035",
           "1602690727721",
-          "e9b83ed2-ccc7-4338-87d5-035bbd9e2f4c"
+          "001a7de7-21f3-43de-8e58-3aa492e1ed5e",
+          "84cc2352-c070-4e9c-9525-994e3c145469",
+          "b7ea6fbb-c2b3-4dbe-83cc-5abcef05666d",
+          "e9b83ed2-ccc7-4338-87d5-035bbd9e2f4c",
+          "75a3416e-4d11-4b4e-b5ec-1c67a44f4149",
+          "6d9e285b-f803-4061-bb11-d4d17b78b294"
         ],
         "settings": {
           "enable_home": true,
@@ -450,7 +522,7 @@
       "collection-header": {
         "type": "collection-header",
         "settings": {
-          "collection_image_enable": true,
+          "collection_image_enable": false,
           "description_enable": true
         }
       },
@@ -665,6 +737,30 @@
           "d792bd79-62b5-43b4-a372-482c4ae1ae29"
         ],
         "settings": {}
+      },
+      "community-template": {
+        "type": "community-template",
+        "blocks": {
+          "712796c9-a2ae-4e64-a740-dad2ea230d0b": {
+            "type": "image",
+            "settings": {
+              "Image": "shopify:\/\/shop_images\/discord_pic.png"
+            }
+          }
+        },
+        "block_order": [
+          "712796c9-a2ae-4e64-a740-dad2ea230d0b"
+        ],
+        "settings": {}
+      },
+      "160748209273e60edd": {
+        "type": "featured-video",
+        "disabled": true,
+        "settings": {
+          "title": "",
+          "video_url": "https:\/\/www.youtube.com\/watch?v=qGu4G9YpZGQ&feature=youtu.be&ab_channel=Senchigami",
+          "alt": false
+        }
       }
     },
     "content_for_index": [
@@ -676,7 +772,8 @@
       "1559240039950",
       "1555097143929",
       "1596528139802",
-      "1596529605536"
+      "1596529605536",
+      "160748209273e60edd"
     ]
   },
   "presets": {
