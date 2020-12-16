@@ -10,7 +10,7 @@
     "color_cart_dot_text": "#ffffff",
     "color_alt_bg": "#f9f9f9",
     "color_alt_text": "#000000",
-    "color_announcement": "#000000",
+    "color_announcement": "#22adba",
     "color_announcement_text": "#ffffff",
     "color_newsletter": "#000",
     "color_newsletter_text": "#fff",
@@ -537,7 +537,7 @@
       "1589432334509": {
         "type": "featured-collection",
         "settings": {
-          "title": "Season 1 Collection",
+          "title": "Emergence Collection",
           "description": "",
           "home_featured_products": "frontpage",
           "rows": 3,
@@ -606,7 +606,7 @@
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>The shirts are fitted to my body which I love and the quality is still the same as when I bought them even after a few washes. I am very satisfied with my merch so far!<\/p>",
-              "image": "shopify:\/\/shop_images\/selena_testimonial.png",
+              "image": "shopify:\/\/shop_images\/sel.jpg",
               "author": "Selena F."
             }
           },
@@ -761,9 +761,106 @@
           "video_url": "https:\/\/www.youtube.com\/watch?v=qGu4G9YpZGQ&feature=youtu.be&ab_channel=Senchigami",
           "alt": false
         }
+      },
+      "16077418562ae01732": {
+        "type": "slideshow",
+        "blocks": {
+          "51fb514a-c58a-4f1d-9ab2-880809ace30a": {
+            "type": "image",
+            "settings": {
+              "title": "",
+              "title_size": 80,
+              "subheading": "",
+              "link": "shopify:\/\/collections\/frontpage",
+              "link_text": "",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/ser_7f0705fd-a74c-4da7-a4b4-6f4fd96f8e2c.png",
+              "focal_point": "center center"
+            }
+          },
+          "9ee8e84d-344c-4f9c-98c9-620310c83a3d": {
+            "type": "image",
+            "settings": {
+              "title": "",
+              "title_size": 80,
+              "subheading": "",
+              "link": "shopify:\/\/products\/short-sleeve-unisex-t-shirt",
+              "link_text": "",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/visions_dddddd.png",
+              "focal_point": "50% 10%"
+            }
+          },
+          "50f84ab0-ad8a-4eaf-b98b-d19e7d61a7b2": {
+            "type": "image",
+            "settings": {
+              "title": "",
+              "title_size": 80,
+              "subheading": "",
+              "link": "shopify:\/\/products\/control",
+              "link_text": "",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/cotroldd.png",
+              "focal_point": "center center"
+            }
+          },
+          "5aeec885-2c08-4e42-bd87-0c98d5aead39": {
+            "type": "image",
+            "settings": {
+              "title": "",
+              "title_size": 80,
+              "subheading": "",
+              "link": "shopify:\/\/products\/power",
+              "link_text": "",
+              "text_align": "vertical-center horizontal-center",
+              "image": "shopify:\/\/shop_images\/power_time.png",
+              "focal_point": "center center"
+            }
+          }
+        },
+        "block_order": [
+          "51fb514a-c58a-4f1d-9ab2-880809ace30a",
+          "9ee8e84d-344c-4f9c-98c9-620310c83a3d",
+          "50f84ab0-ad8a-4eaf-b98b-d19e7d61a7b2",
+          "5aeec885-2c08-4e42-bd87-0c98d5aead39"
+        ],
+        "settings": {
+          "style": "arrows",
+          "desktop_size": 0,
+          "mobile_size": 0,
+          "autoplay": false,
+          "autoplay_speed": 7
+        }
+      },
+      "1607745082c901d74f": {
+        "type": "background-image-text",
+        "disabled": true,
+        "settings": {
+          "subtitle": "",
+          "title": "Large image with text box",
+          "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+          "button_label": "",
+          "desktop_size": 0,
+          "image_alignment": "center center",
+          "color_border": "#f4f4f4",
+          "layout": "left"
+        }
+      },
+      "16077492802b2ebcf1": {
+        "type": "featured-content",
+        "settings": {
+          "title": "",
+          "text": "<p>Senchigami represents that lightbulb moment when you think your down and out and you surpass your limits to achieve victory. Senchigami was created by a group of individuals that strive to be better than they were yesterday.<\/p>",
+          "align_text": "center",
+          "narrow_column": false,
+          "enlarge_text": true,
+          "alt": false
+        }
       }
     },
     "content_for_index": [
+      "16077418562ae01732",
+      "16077492802b2ebcf1",
       "1589432334509",
       "1598714936716",
       "1596527000330",
@@ -773,7 +870,8 @@
       "1555097143929",
       "1596528139802",
       "1596529605536",
-      "160748209273e60edd"
+      "160748209273e60edd",
+      "1607745082c901d74f"
     ]
   },
   "presets": {
