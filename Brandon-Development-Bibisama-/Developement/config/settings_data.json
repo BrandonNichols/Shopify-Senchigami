@@ -264,79 +264,12 @@
           "sort": "alphabetical"
         }
       },
-      "1555097143929": {
-        "type": "text-and-image",
-        "disabled": true,
-        "settings": {
-          "image_width": 700,
-          "subtitle": "",
-          "title": "Image with text",
-          "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
-          "button_label": "",
-          "button_style": "primary",
-          "layout": "right",
-          "alt": false
-        }
-      },
-      "1559240039950": {
-        "type": "hero-animated",
-        "disabled": true,
-        "blocks": {
-          "1559240039950-0": {
-            "type": "image",
-            "settings": {
-              "focal_point": "center center"
-            }
-          },
-          "1559240039950-1": {
-            "type": "image",
-            "settings": {
-              "focal_point": "center center"
-            }
-          },
-          "1559309176406": {
-            "type": "image",
-            "settings": {
-              "focal_point": "center center"
-            }
-          }
-        },
-        "block_order": [
-          "1559240039950-0",
-          "1559240039950-1",
-          "1559309176406"
-        ],
-        "settings": {
-          "style": "gif",
-          "title": "Make an\ninstant impression",
-          "title_size": 72,
-          "subheading": "With fading or GIF-style animated images",
-          "link_text": "Optional button",
-          "text_align": "vertical-bottom horizontal-right",
-          "desktop_size": 0,
-          "mobile_size": 0
-        }
-      },
       "product-recommendations": {
         "type": "product-recommendations",
         "settings": {
           "show_product_recommendations": false,
           "product_recommendations_heading": "You may also like",
           "per_row": "large"
-        }
-      },
-      "1559249041610": {
-        "type": "hero-video",
-        "disabled": true,
-        "settings": {
-          "title": "Surpass Your Limits",
-          "title_size": 75,
-          "subheading": "",
-          "link_text": "",
-          "text_align": "vertical-bottom horizontal-left",
-          "video_url": "https:\/\/www.youtube.com\/watch?v=JaDi-Ac2vUk&feature=youtu.be",
-          "section_height": "100vh",
-          "mobile_height": "100vh"
         }
       },
       "social": {
@@ -433,10 +366,10 @@
           "b7ea6fbb-c2b3-4dbe-83cc-5abcef05666d": {
             "type": "post",
             "settings": {
-              "image": "shopify:\/\/shop_images\/jackson.jpg",
-              "link": "https:\/\/twitter.com\/JacksonHaime",
+              "image": "shopify:\/\/shop_images\/yami.png",
+              "link": "https:\/\/www.twitch.tv\/y4mikun",
               "product": "",
-              "account": "Jackson",
+              "account": "Y4MI",
               "caption": "",
               "likes": ""
             }
@@ -547,38 +480,6 @@
           "alt": false
         }
       },
-      "1589433548337": {
-        "type": "hero-animated",
-        "disabled": true,
-        "blocks": {
-          "1589433548337-0": {
-            "type": "image",
-            "settings": {
-              "focal_point": "center center"
-            }
-          },
-          "1589433548337-1": {
-            "type": "image",
-            "settings": {
-              "focal_point": "center center"
-            }
-          }
-        },
-        "block_order": [
-          "1589433548337-0",
-          "1589433548337-1"
-        ],
-        "settings": {
-          "style": "gif",
-          "title": "Make an\ninstant impression",
-          "title_size": 80,
-          "subheading": "With fading or GIF-style animated images",
-          "link_text": "Optional button",
-          "text_align": "vertical-center horizontal-center",
-          "desktop_size": 0,
-          "mobile_size": 0
-        }
-      },
       "page-contact-template": {
         "type": "page-contact-template",
         "blocks": {
@@ -630,99 +531,6 @@
           "alt": false
         }
       },
-      "1596528139802": {
-        "type": "featured-collection-slider",
-        "disabled": true,
-        "settings": {
-          "title": "Featured collection",
-          "description": "",
-          "home_featured_products": "frontpage",
-          "per_row": "medium",
-          "alt": false
-        }
-      },
-      "1596529605536": {
-        "type": "background-image-text",
-        "disabled": true,
-        "settings": {
-          "subtitle": "",
-          "title": "Large image with text box",
-          "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
-          "button_label": "",
-          "desktop_size": 0,
-          "image_alignment": "center center",
-          "color_border": "#f4f4f4",
-          "layout": "left"
-        }
-      },
-      "1598714936716": {
-        "type": "slideshow",
-        "disabled": true,
-        "blocks": {
-          "1598714936716-0": {
-            "type": "image",
-            "settings": {
-              "title": "#SurpassYourLimits",
-              "title_size": 80,
-              "subheading": "Free shipping with over $50",
-              "link_text": "Optional button",
-              "text_align": "vertical-center horizontal-center",
-              "image": "shopify:\/\/shop_images\/art_wall.png",
-              "image_mobile": "shopify:\/\/shop_images\/art_wall.png",
-              "focal_point": "20% 10%"
-            }
-          },
-          "1598714941841": {
-            "type": "image",
-            "settings": {
-              "title": "Two line\nslide title.",
-              "title_size": 80,
-              "subheading": "And an optional subheading",
-              "link_text": "Optional button",
-              "text_align": "vertical-center horizontal-center",
-              "image": "shopify:\/\/shop_images\/beaniechloe.jpg",
-              "focal_point": "center center"
-            }
-          },
-          "1598714943753": {
-            "type": "image",
-            "settings": {
-              "title": "Two line\nslide title.",
-              "title_size": 80,
-              "subheading": "And an optional subheading",
-              "link_text": "Optional button",
-              "text_align": "vertical-center horizontal-center",
-              "image": "shopify:\/\/shop_images\/delicatexo_2e6bb3f5-eb11-4a90-8d45-5f6d255aae73.jpg",
-              "focal_point": "center center"
-            }
-          },
-          "fd8c1629-3ac9-45dd-b54b-1e6fb999a6da": {
-            "type": "image",
-            "settings": {
-              "title": "Bailey",
-              "title_size": 80,
-              "subheading": "And an optional subheading",
-              "link_text": "Optional button",
-              "text_align": "vertical-center horizontal-center",
-              "image": "shopify:\/\/shop_images\/bailey.jpg",
-              "focal_point": "center center"
-            }
-          }
-        },
-        "block_order": [
-          "1598714936716-0",
-          "1598714941841",
-          "1598714943753",
-          "fd8c1629-3ac9-45dd-b54b-1e6fb999a6da"
-        ],
-        "settings": {
-          "style": "arrows",
-          "desktop_size": 0,
-          "mobile_size": 0,
-          "autoplay": true,
-          "autoplay_speed": 5
-        }
-      },
       "page-about_us-template": {
         "type": "page-about_us-template",
         "blocks": {
@@ -753,15 +561,6 @@
         ],
         "settings": {}
       },
-      "160748209273e60edd": {
-        "type": "featured-video",
-        "disabled": true,
-        "settings": {
-          "title": "",
-          "video_url": "https:\/\/www.youtube.com\/watch?v=qGu4G9YpZGQ&feature=youtu.be&ab_channel=Senchigami",
-          "alt": false
-        }
-      },
       "16077418562ae01732": {
         "type": "slideshow",
         "blocks": {
@@ -771,10 +570,10 @@
               "title": "",
               "title_size": 80,
               "subheading": "",
-              "link": "shopify:\/\/collections\/frontpage",
+              "link": "https:\/\/www.twitch.tv\/y4mikun",
               "link_text": "",
               "text_align": "vertical-center horizontal-center",
-              "image": "shopify:\/\/shop_images\/ser_7f0705fd-a74c-4da7-a4b4-6f4fd96f8e2c.png",
+              "image": "shopify:\/\/shop_images\/yamijoins.png",
               "focal_point": "center center"
             }
           },
@@ -797,10 +596,10 @@
               "title": "",
               "title_size": 80,
               "subheading": "",
-              "link": "shopify:\/\/products\/control",
+              "link": "https:\/\/www.twitch.tv\/delicatexo",
               "link_text": "",
               "text_align": "vertical-center horizontal-center",
-              "image": "shopify:\/\/shop_images\/cotroldd.png",
+              "image": "shopify:\/\/shop_images\/delijoins.png",
               "focal_point": "center center"
             }
           },
@@ -813,7 +612,7 @@
               "link": "shopify:\/\/products\/power",
               "link_text": "",
               "text_align": "vertical-center horizontal-center",
-              "image": "shopify:\/\/shop_images\/power_time.png",
+              "image": "shopify:\/\/shop_images\/dragons_might.png",
               "focal_point": "center center"
             }
           }
@@ -832,20 +631,6 @@
           "autoplay_speed": 7
         }
       },
-      "1607745082c901d74f": {
-        "type": "background-image-text",
-        "disabled": true,
-        "settings": {
-          "subtitle": "",
-          "title": "Large image with text box",
-          "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
-          "button_label": "",
-          "desktop_size": 0,
-          "image_alignment": "center center",
-          "color_border": "#f4f4f4",
-          "layout": "left"
-        }
-      },
       "16077492802b2ebcf1": {
         "type": "featured-content",
         "settings": {
@@ -862,16 +647,7 @@
       "16077418562ae01732",
       "16077492802b2ebcf1",
       "1589432334509",
-      "1598714936716",
-      "1596527000330",
-      "1559249041610",
-      "1589433548337",
-      "1559240039950",
-      "1555097143929",
-      "1596528139802",
-      "1596529605536",
-      "160748209273e60edd",
-      "1607745082c901d74f"
+      "1596527000330"
     ]
   },
   "presets": {

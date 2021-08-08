@@ -1,0 +1,15 @@
+var settings = {
+    uid: "ad79fb0e92d11a5485c9adf7bf00d5a0", 
+    huid: "470317",
+    source: "Shopify"{% if customer  %},
+    vid: "{{ customer.id }}"{% endif %},
+    options: {}     
+};
+
+var ratingSettings = {
+    title: "{{ product.title | escape }}",
+    url: "{{ page.url }}",
+    domain: "{{ shop.permanent_domain | escape }}",
+    img: "{{ product.featured_image | product_img_url: 'large'  |replace: '?', '%3F' | replace: '&','%26'}}",
+    tags: "{% for tag in product.tags %}{{ tag | escape }};{% endfor %}"
+};
