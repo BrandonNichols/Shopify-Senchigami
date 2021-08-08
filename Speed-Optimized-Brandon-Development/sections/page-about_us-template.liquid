@@ -1,0 +1,38 @@
+<div class="image__gallery">
+  {% for block in section.blocks %}
+    <div>
+      <img class="center-slider-image" src="{{block.settings.Image | img_url: '502x'}}"/>
+    </div>
+  {% endfor %}
+</div>
+
+<style>
+  .center-slider-image{
+    margin: 0 auto auto 125px;
+  }
+
+  @media screen and (max-width: 600px){
+    .center-slider-image{
+      margin: 0 auto auto -8px;
+    }
+  }
+</style>
+
+{% schema %}
+  {
+    "name": "Image Gallery",
+    "blocks": [
+      {  
+        "type": "image",
+        "name": "images",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "Image",
+            "label": "Image that will be used in the slideshow"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
